@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gudea', sans-serif;
+}
+
+.header img {
+    width: 250px;
+    padding: 5px 0;
+
+}
+
+.header ul {
+    display: inline;
+    float: right;
+    padding-top: 25px;
+}
+
+.header li {
+    display: inline-block;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+}
