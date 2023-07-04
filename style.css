@@ -3,25 +3,67 @@
     padding: 0;
 }
 
+.cabecalho {
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.cabecalho img {
+    width: 150px;
+    padding: 5px ;
+
+}
+
+.cabecalho ul {
+    display: inline;
+    float: right;
+    padding-top: 15px;
+}
+
+.cabecalho li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+}
+
 body {
     font-family: 'Gudea', sans-serif;
 }
 
-.header img {
-    width: 250px;
-    padding: 5px 0;
-
+.apresentacao {
+    height: 600px;
+    color: white;
+    background-color: black;
 }
 
-.header ul {
-    display: inline;
+.apresentacao img {
     float: right;
-    padding-top: 25px;
 }
 
-.header li {
-    display: inline-block;
-    font-size: 15px;
-    text-align: right;
-    padding-right: 10px;
+.nome-apresentação {
+    margin: 25px;
+    padding: 15px;
 }
+
+
+.bibiografia {
+    height: 600px;
+    color: black;
+    background-color: white;
+}
+
+.skills {
+    height: 600px;
+    color: white;
+    background-color: black;
+}
+
+.rodape {
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+  }
+
