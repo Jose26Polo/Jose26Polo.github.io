@@ -36,17 +36,32 @@ body {
 .apresentacao {
     height: 600px;
     color: white;
-    background-color: black;
     background-image: url('https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2019/04/plano-de-fundo-preto28.jpg?fit=2560%2C1600&ssl=1');
 }
 
 .apresentacao img {
     float: right;
+    height: 600px;
+
 }
 
-.nome-apresentação {
-    margin: 25px;
-    padding: 15px;
+.nome-apresentacao{
+    position: absolute;
+    padding: 80px 0 0 20px ;
+}
+
+.nome-apresentacao h1 {
+    font-size: 65px;
+}
+
+.nome-apresentacao h2 {
+    font-size: 80px;
+}
+
+.nome-apresentacao p {
+    font-size: 30px;
+    padding-top: 20px;
+    font-style: italic;
 }
 
 
